@@ -293,10 +293,16 @@ footer {
 .footer {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.about p{
+    flex: 1;
+    padding-bottom: 1rem;
+    min-width: 200px;
 }
 
 .about a {
